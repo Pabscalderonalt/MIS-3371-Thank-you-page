@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../hw1style.css">
+    <title>Thank you html</title>
+</head>
+
+
+
+<style>
+
+
+body{
+    background:linear-gradient(to right, rgb(160, 211, 190), rgba(110, 147, 42, 0.294));
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    overscroll-behavior:none;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the body is at least the height of the viewport */
+    margin: 0; /* Optional: removes default body margin */
+}
+
+header{
+    width: 100%;
+    display: flex;
+    text-align:right;
+    flex-direction: column;
+    background-color: #4fbf5387;
+}
+
+.container {
+    margin-top: 145px;
+    border: 1px solid;
+    width: 450px;
+    height:200px;
+    border-radius: 200px;
+    border-color: rgb(52, 137, 33);
+    background:linear-gradient(to bottom, rgb(110,147,42,0.294),rgba(160,211,190));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h1 {
+    color: rgb(62, 71, 188);
+}
+
+
+
+p {
+    padding: 0%;
+    margin-top:0%;
+    margin-bottom: 0px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    height: max-content;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    text-align:right;
+    flex-direction: column
+    ;
+}
+
+
+form{
+    flex-grow: 2;
+}
+
+</style>
+
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td valign="top" align="right" width="20">
+                    <div class="image">
+                        <img src="clinical_logo.png" width="80px" alt="Pablo's Clinic" id="logo"/>
+                    </div>
+                </td>
+
+                <td>
+                    <h1 align=center colspan="4">Pablo's Clinic</h1>
+                </td>
+
+                <td valign="middle" align="right" width="20">
+                    <p><span id="today">Today's Date:</span></p>
+                </td>
+            </tr>
+        </table>
+    </header>
+<hr>
+<br>
+<center>
+<main>
+    <br>
+        <div class="container">
+        <div class="form-box" id="login-form">
+            <form action="POST">
+                <h1 align="left">Thank You<br>For your Submission!</h1>
+                <p align="left">We will be in touch soon</p>
+            </form>
+        </div>
+    </div>
+</main>
+</center>
+    <footer valign="bottom"> 
+        <br><br><br><br><br> <br><br><br>
+        <!--No link yet but just wanted to incorporate link tag to improve look visually-->
+        <p Align="right">© 2025 Pablo's Clinic | <a href="#">contact us</a></p>
+        <br>
+    </footer>
+
+
+</body>
+
+</html>
