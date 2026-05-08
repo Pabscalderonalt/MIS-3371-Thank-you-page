@@ -135,4 +135,8 @@ p {color: rgb(67, 91, 211); font-family: Arial, Helvetica, sans-serif;font-weigh
     </body>
 </html>
 <!--SCRIPT FOR DATE BELOW-->
-<script src="hw1.js"></script>
+<script>
+        const d = new Date(); 
+        let text= d.toLocaleDateString(); /* Extracts the month date year from your browser  that way we avoid confusion from users locations*/ 
+        document.getElementById("today").innerHTML= text; /* Finds the element withe the attribute id=today and eneters this using the span tag*/
+ </script>
